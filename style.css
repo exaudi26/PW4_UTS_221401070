@@ -1,0 +1,50 @@
+body {
+  background-color: #FFFFF0;
+  color: black;
+}
+
+.background-color-1 {
+  background-color: #FFFFF0;
+  transition: background-color 0.5s ease;
+  color: black;
+}
+
+/* Alternate background color */
+.background-color-2 {
+  background-color: #002E63;
+  transition: background-color 0.5s ease;
+  color: white;
+}
+
+#column {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#home {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+h2{
+  text-align: center;
+  margin: 20px;
+}
+
+#rank {
+  font-size: 150%;
+}
+
+#carousel_slide {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.carousel-caption a {
+  color: white;
+  transition: color 0.3s ease;
+}
+  
+.carousel-caption a:hover {
+  color: blue;
+}

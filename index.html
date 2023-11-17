@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>League Of Legend : Wild Rift Profile</title>
+    <link rel="icon" href="lolwricon.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <!-- Awal Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light text-bg-info fixed-top navbar-scroll">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="lolwricon.png" alt="icon" height="28px" style="margin-right: 8px;">League of Legends Wild Rift Profile</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Profile</a>
+            <a class="nav-link" href="#rankinfo">Ranked Information</a>
+            <a class="nav-link" href="#column">Best Role</a>
+            <a class="nav-link" href="#stats">All Time Stats</a>
+            <a class="nav-link" href="#champions">Preffered Champions</a>
+            <a class="nav-link" href="#friend">Close Friends</a>
+            <a class="nav-link disabled" aria-disabled="true">About</a>
+          </div>
+        </div>
+        <button id="theme" onclick="toggleBackgroundColor()" style="margin-right: 20px;"><img src="darkmodeicon.png" alt="darkmode" width="30px"></button>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+     
+    <!-- Awal Jumbotron -->
+    <div class="jumbotron" style="margin-left: 200px; margin-right: 200px; margin-top: 60px;">
+      <img src="Oceanic_Will_WR_profileicon.webp" alt="Oceanic_Will_WR_profileicon" class="rounded-circle" width="250">
+      <h1 class="display-4">T1 Exaudi#4444</h1>
+      <p class="lead">First Time Playing : Thursday, August 5th 2021</p>
+      <hr class="my-4">
+    </div>
+    <!-- Akhir Jumbotron -->
+
+    <!-- Awal Rank Column -->
+    <h2 id="rankinfo">Ranked Information</h2>
+    <div class="container text-center" id="rank">
+      <div class="row">
+        <div class="col">
+          <h4>Peak Rank</h4><br><img src="Season_2019_-_Diamond_1.webp" alt="diamond" height="180px"><br>Diamond II
+        </div>
+        <div class="col">
+          <h4>Peak Legendary Rank</h4><br><img src="commander.png" alt="Commander" height="180px"><br>Commander II
+        </div>
+      </div>
+      <div class="row" style="margin-top: 40px;">
+        <div class="col">
+          <h4>Current Rank</h4><br><img src="Season_2019_-_Platinum_1.webp" alt="Platinum" height="180px"><br>Platinum III
+        </div>
+        <div class="col">
+          <h4>Current Legendary Rank</h4><br><img src="commander.png" alt="Commander" height="180px"><br>Commander II
+        </div>
+        <div class="col">
+          <h4>Current Aram Elo</h4><br><img src="aram.png" alt="Aram" height="180px"><br>1200
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Rank Column -->
+
+    <!-- Awal Column -->
+    <div class="container text-center border" id="column">
+        <div class="row border">
+          <div class="col-sm-3 border fs-1 align-items-center d-flex">
+            <h2>Best Role</h2>
+          </div>
+          <div class="col-sm-9 border">
+            <div class="row border">
+              <div class="col-8 col-sm-6 border fs-3 align-items-center d-flex">
+                <img src="dragonlane.png" width="40px">Duo Lane (ADC)
+              </div>
+              <div class="col-4 col-sm-6 border fs-3 align-items-center d-flex">
+                <img src="toplane.png" width="40px">Top Lane (Baron)
+              </div>
+              <div class="col-4 col-sm-6 border fs-3 align-items-center d-flex">
+                <img src="jungle.png" width="40px">Jungle
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Akhir Column -->
+
+    <!-- Awal Stats -->
+    <h2 style="margin-top: 50px;">All Time Stats</h2>
+    <div class="container" id="stats">
+      <table class="table table-bordered table-dark align-items-center justify-content-center mx-auto">
+        <thead>
+          <tr>
+            <th scope="col">Champions Name</th>
+            <th scope="col">Games Played</th>
+            <th scope="col">Win Rate</th>
+            <th scope="col">Win/Lose Ratio</th>
+            <th scope="col">K/D/A</th>
+            <th scope="col">Gold/Minute</th>
+            <th scope="col">Average Damage Dealt</th>
+            <th scope="col">Average Damage Tanked</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><img src="Jhinicon.jpg" alt="Jhin" width="40px" class="rounded-circle" style="margin-right: 5px;">Jhin</td>
+            <td align="middle">125</td>
+            <td align="middle">55.2%</td>
+            <td align="middle">69/56</td>
+            <td>6.3/3.2/8.6</td>
+            <td align="middle">751</td>
+            <td align="middle">22,126</td>
+            <td align="middle">12,952</td>
+          </tr>
+          <tr>
+            <td><img src="varusicon.jpg" alt="Varus" width="40px" class="rounded-circle" style="margin-right: 5px;">Varus</td>
+            <td align="middle">105</td>
+            <td align="middle">49.5%</td>
+            <td align="middle">52/53</td>
+            <td>6.6/3.5/7.8</td>
+            <td align="middle">741</td>
+            <td align="middle">23,340</td>
+            <td align="middle">13,503</td>
+          </tr>
+          <tr>
+            <td><img src="setticon.jpg" alt="Sett" width="40px" class="rounded-circle" style="margin-right: 5px;">Sett</td>
+            <td align="middle">89</td>
+            <td align="middle">55.1%</td>
+            <td align="middle">49/40</td>
+            <td>5.0/4.0/7.4</td>
+            <td align="middle">691</td>
+            <td align="middle">18,850</td>
+            <td align="middle">24,635</td>
+          </tr>
+          <tr>
+            <td><img src="yasuoicon.jpg" alt="Yasuo" width="40px" class="rounded-circle" style="margin-right: 5px;">Yasuo</td>
+            <td align="middle">81</td>
+            <td align="middle">53.1%</td>
+            <td align="middle">43/38</td>
+            <td>4.8/4.8/6.0</td>
+            <td align="middle">720</td>
+            <td align="middle">15,996</td>
+            <td align="middle">18,902</td>
+          </tr>
+          <tr>
+            <td><img src="masteryiicon.jpg" alt="Master Yi" width="40px" class="rounded-circle" style="margin-right: 5px;">Master Yi</td>
+            <td align="middle">74</td>
+            <td align="middle">62.2%</td>
+            <td align="middle">46/28</td>
+            <td>6.4/4.5/6.3</td>
+            <td align="middle">786</td>
+            <td align="middle">18,546</td>
+            <td align="middle">15,498</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- Akhir Stats -->
+
+    <!-- Awal Carousel -->
+    <h2 id="champions" style="margin-top: 50px;">Preffered Champions</h2>
+    <div id="carouselExampleCaptions" class="carousel slide mx-auto" style="width: 1000px;">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="varus.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <a href="https://www.leagueoflegends.com/en-pl/champions/varus/">
+                <h5>Varus</h5>
+                <p>The Arrow of Retribution</p>
+              </a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="jhin.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <a href="https://www.leagueoflegends.com/en-pl/champions/jhin/">
+                <h5>Jhin</h5>
+                <p>The Virtuoso</p>
+              </a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="yone.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <a href="https://www.leagueoflegends.com/en-pl/champions/jhin/">
+                <h5>Yone</h5>
+                <p>The Unforgotten</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- Akhir Carousel -->
+
+      <!-- Awal Close Friend -->
+      <h2 id="friend" style="margin-top: 50px;">Close Friends</h2>
+      <div class="container d-flex align-items-center justify-content-center mx-auto">
+        <div class="row">
+          <div class="col-sm-4 d-inline-block">
+            <div id="card1" class="card" style="width: 18rem;">
+              <img src="Heroic_Landing_WR_profileicon.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Artrogantz</h5>
+                <p class="card-text">First Time Playing : <br>Tuesday, October 13th 2020</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Main Role : Duo Lane (ADC)</li>
+                <li class="list-group-item">Secondary Role : Jungle</li>
+                <li class="list-group-item">Peak Rank : Master</li>
+                <li class="list-group-item">Current Rank : Gold IV</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4 d-inline-block">
+            <div id="card2" class="card" style="width: 18rem;">
+              <img src="The_Way_of_the_Snax_WR_profileicon.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Rodear</h5>
+                <p class="card-text">First Time Playing : <br>Wednesday, August 12th 2021</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Main Role : Mid Lane</li>
+                <li class="list-group-item">Secondary Role : Top Lane (Baron)</li>
+                <li class="list-group-item">Peak Rank : Master 31</li>
+                <li class="list-group-item">Current Rank : Gold II</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4 d-inline-block">
+            <div id="card3" class="card" style="width: 18rem;">
+              <img src="Ghoulish_Yet_Fluffy_WR_profileicon.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">NOOBSKIE</h5>
+                <p class="card-text">First Time Playing : <br>Tuesday, October 13th 2020</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Main Role : Mid Lane</li>
+                <li class="list-group-item">Secondary Role : Support</li>
+                <li class="list-group-item">Peak Rank : Diamond III</li>
+                <li class="list-group-item">Current Rank : Gold III</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Akhir Close Friend -->
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+      <script src="script.js"></script>
+  </body>
+</html>
