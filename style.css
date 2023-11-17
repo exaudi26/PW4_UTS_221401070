@@ -1,19 +1,9 @@
 body {
   background-color: #FFFFF0;
-  color: black;
 }
 
-.background-color-1 {
-  background-color: #FFFFF0;
-  transition: background-color 0.5s ease;
-  color: black;
-}
-
-/* Alternate background color */
-.background-color-2 {
-  background-color: #002E63;
-  transition: background-color 0.5s ease;
-  color: white;
+.navbar-scroll {
+  transition: transform 0.3s ease-in-out;
 }
 
 #column {
@@ -47,4 +37,9 @@ h2{
   
 .carousel-caption a:hover {
   color: blue;
+}
+
+th {
+  vertical-align: middle;
+  font-size: 120%;
 }
