@@ -1,3 +1,15 @@
+document.addEventListener('DOMContentLoaded', function() {
+  const themeToggle = document.getElementById('themeToggle');
+  const body = document.body;
+
+  themeToggle.addEventListener('click', function() {
+      // Toggle between 'light-theme' and 'dark-theme'
+      body.classList.toggle('light-theme');
+      body.classList.toggle('dark-theme');
+  });
+});
+
+
 var lastScrollTop = 0;
 
   window.addEventListener("scroll", function () {

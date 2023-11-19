@@ -1,6 +1,15 @@
-body {
-  background-color: #FFFFF0;
+/* Light Theme */
+body.light-theme {
+  background-color: #F9F6EE;
+  color: #000000;
 }
+
+/* Dark Theme */
+body.dark-theme {
+  background-color: #003262;
+  color: #ffffff;
+}
+
 
 .navbar-scroll {
   transition: transform 0.3s ease-in-out;
